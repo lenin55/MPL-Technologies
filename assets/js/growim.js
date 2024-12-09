@@ -945,4 +945,11 @@
       toggleHandle();
     });
   }
+
+  $('#elb5qyal9awn1').on('click', function() {
+    setTimeout(function() {
+      $('.service-one__item').toggleClass('show');
+    }, 1000);
+});
+
 })(jQuery);

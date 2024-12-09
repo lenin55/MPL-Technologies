@@ -25,3 +25,43 @@
     line-height: 1rem;
     margin: 0;
 }
+.service-one__item.show{
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    transform: scale(1);
+}
+.service-one__item{
+    position: absolute;
+    transform: scale(0);
+}
+.service-one__item.s1.show{
+    top: -30px;
+    left: 15%;
+}
+.service-one__item.s2.show{
+    bottom: 0;
+    left: 0;
+}
+.service-one__item.s3.show{
+    top: -30px;
+    right: 15%;
+}
+.service-one__item.s4.show{
+    bottom: 0;
+    right: 0;
+    animation: bounceOut 2s ease-in-out;
+}
+@keyframes bounceOut {
+    0% {
+        transform: scale(0);
+        bottom: unset;
+        right: unset;
+    }
+
+    100% {
+        transform: scale(1);
+        bottom: 0;
+        right: 0;
+    }
+}
