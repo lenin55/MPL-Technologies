@@ -41,6 +41,7 @@
     right: unset;
     bottom: unset;
     transform: scale(1) translate(-10%, -30%);
+    transition: all 0.5s ease-in-out 0s;
 }
 .service-one__item.s2.show{
     width: 300px;
@@ -50,6 +51,7 @@
     top: unset;
     right: unset;
     transform: scale(1) translate(-10%, 10%);
+    transition: all 0.5s ease-in-out .3s;
 }
 .service-one__item.s3.show{
     width: 300px;
@@ -59,6 +61,7 @@
     left: unset;
     bottom: unset;
     transform: scale(1) translate(10%, -30%);
+    transition: all 0.5s ease-in-out .6s;
 }
 .service-one__item.s4.show{
     width: 300px;
@@ -68,6 +71,7 @@
     top: unset;
     left: unset;
     transform: scale(1) translate(10%, 10%);
+    transition: all 0.5s ease-in-out .9s;
 }
 @keyframes bounceOut {
     0% {
