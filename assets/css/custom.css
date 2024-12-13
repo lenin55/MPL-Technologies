@@ -51,7 +51,7 @@
     top: unset;
     right: unset;
     transform: scale(1) translate(-10%, 10%);
-    transition: all 0.5s ease-in-out .3s;
+    transition: all 0.5s ease-in-out .1s;
 }
 .service-one__item.s3.show{
     width: 300px;
@@ -61,7 +61,7 @@
     left: unset;
     bottom: unset;
     transform: scale(1) translate(10%, -30%);
-    transition: all 0.5s ease-in-out .6s;
+    transition: all 0.5s ease-in-out .2s;
 }
 .service-one__item.s4.show{
     width: 300px;
@@ -71,7 +71,7 @@
     top: unset;
     left: unset;
     transform: scale(1) translate(10%, 10%);
-    transition: all 0.5s ease-in-out .9s;
+    transition: all 0.5s ease-in-out .3s;
 }
 @keyframes bounceOut {
     0% {
@@ -81,4 +81,9 @@
     100% {
         transform: scale(1) translate(0%, 30%);
     }
+}
+
+.why-choose-one__image__bg.img_rightside {
+    left: unset;
+    right: -15px;
 }
