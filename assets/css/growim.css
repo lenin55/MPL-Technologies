@@ -4477,6 +4477,7 @@ h6 {
   font-weight: 800;
   text-transform: capitalize;
   margin: 0 0 11px;
+  color: #fff;
 }
 @media (max-width: 767px) {
   .contact-two__title {
@@ -4486,6 +4487,7 @@ h6 {
 }
 .contact-two__text {
   margin: 0 0 32px;
+  color: #fff;
 }
 .contact-two__form {
   padding: 37px 30px 32px;
@@ -6241,7 +6243,7 @@ body.megamenu-popup-active .mobile-nav__content {
 }
 @media (max-width: 1600px) {
   .counter-one {
-    margin: 0 30px;
+    margin: 4% 30px;
   }
 }
 @media (max-width: 1300px) {
