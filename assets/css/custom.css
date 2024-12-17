@@ -111,3 +111,9 @@
     height: 100vh;
     transform: scale(1.8) translate(-15%, -15%);
 }
+
+.for-header.main-slider-one__item {
+    padding-top: 0;
+    padding-bottom: 0;
+    height: 100px;
+}
