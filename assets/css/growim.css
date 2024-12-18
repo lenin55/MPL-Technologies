@@ -5910,7 +5910,7 @@ body.megamenu-popup-active .mobile-nav__content {
 }
 @media (min-width: 1200px) {
   .why-choose-three__content {
-    max-width: 440px;
+    /* max-width: 440px; */
   }
 }
 .why-choose-three__content .sec-title {

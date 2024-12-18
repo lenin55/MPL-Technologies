@@ -1,3 +1,22 @@
+@font-face {
+    font-family: 'logoText';
+    src: url('fonts/JosefinSans-Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'logoText-regular';
+    src: url('fonts/JosefinSans-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.logo-text>h1 {
+    font-family: 'logoText';
+}
+.logo-text>p {
+    font-family: 'logoText-regular';
+}
 .techbox {
     position: relative;
     display: flex;
@@ -8,6 +27,7 @@
 }
 .main-header__logo a{
     display: flex;
+    align-items: center;
 }
 .logo-text{
     margin-left: 10px;
@@ -15,13 +35,13 @@
 
 .logo-text h1{
     color: #fff;
-    font-size: 1.5rem;
-    line-height: 1.5rem;
+    font-size: 26px;
+    line-height: 26px;
     margin-bottom: 5px;
 }
 .logo-text p{
     color: #fff;
-    font-size: 1rem;
+    font-size: 20px;
     line-height: 1rem;
     margin: 0;
 }
