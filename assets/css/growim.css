@@ -6561,6 +6561,11 @@ body.megamenu-popup-active .mobile-nav__content {
 @media (max-width: 767px) {
   .testimonials-one {
     padding-top: 80px;
+    padding-bottom: 80px;
+  }
+  .testimonials-one__image svg#etbUfR26A5d1{
+    position: absolute;
+    opacity: .2;
   }
 }
 .testimonials-one__shape-one {
@@ -16239,6 +16244,7 @@ body.megamenu-popup-active .mobile-nav__content {
 @media (max-width: 767px) {
   .service-one {
     padding: 80px 0;
+    height: calc(100vh - 80px);
   }
 }
 .service-one .sec-title__title {

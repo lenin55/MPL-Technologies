@@ -195,3 +195,60 @@
   .main-footer__top.without-letstalk {
     padding-top: 100px;
   }
+
+  @media (max-width: 767px) {
+    .why-choose-one__image__bg{
+      display: none;
+    }
+    .service-one__item.s1, .service-one__item.s2, .service-one__item.s3, .service-one__item.s4 {
+      display: block;
+      transform: scale(1) translate(0, 0);
+      width: 100%;
+      height: 100%;
+      left: 0;
+      right: 0;
+    }
+    .service-one__item.s2{
+      transform: scale(1) translate(0, 150px);
+    }
+    .service-one__item.s3{
+        transform: scale(1) translate(0, 300px);
+    }
+    .service-one__item.s4{
+        transform: scale(1) translate(0, 450px);
+    }
+    .techbox .service-one__item__wrapper{
+      padding: 12px 25px;
+    }
+    .service-one__item__title{
+      margin: 0 0 6px;
+    }
+    .counter-one {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        height: 70vh;
+    }
+    .counter-one >.counter-one__bg{
+        display: none;
+        transform: scale(3.5) translate(35%, 10px);
+    }
+    .portfolio-four__item{
+        width: 100%;
+    }
+    .faq-one__image{
+        display: none;
+    }
+    .contact-two .support-bg {
+        transform: scale(1.8) translate(-15%, -30%);
+    }
+    .google-map__wrapper{
+        position: relative;
+    }
+    .locations{
+        flex-direction: column;
+    }
+    .google-map__info {
+        max-width: 100%;
+    }
+  }
