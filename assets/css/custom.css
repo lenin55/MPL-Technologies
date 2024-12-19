@@ -197,6 +197,21 @@
   }
 
   @media (max-width: 767px) {
+    .for-header.main-slider-one__item{
+        height: 80px;
+    }
+    .main-header__logo img {
+        max-width: 40px;
+      }
+    .logo-text h1 {
+        font-size: 18px;
+        line-height: 20px;
+        letter-spacing: 1px;
+    }
+    .logo-text p {
+        font-size: 17px;
+        line-height: 17px;
+    }
     .why-choose-one__image__bg{
       display: none;
     }
@@ -250,5 +265,11 @@
     }
     .google-map__info {
         max-width: 100%;
+    }
+    #flip{
+        height: 45px;
+    }
+    .col-forMobile{
+        width: 50%;
     }
   }
