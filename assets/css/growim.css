@@ -12759,8 +12759,9 @@ body.megamenu-popup-active .mobile-nav__content {
   background-image: linear-gradient(-90deg, var(--growim-primary, #635AD9) 0%, var(--growim-secondary, #219BE4) 100%);
   position: relative;
   z-index: 3;
-  padding-top: 340px;
-  padding-bottom: 199px;
+  padding-top: 15%;
+  padding-bottom: 5%;
+  height: 100vh;
 }
 @media (max-width: 1199px) {
   .main-slider-one__item {

@@ -212,6 +212,9 @@
         font-size: 17px;
         line-height: 17px;
     }
+    .main-slider-one__item{
+        height: auto;
+    }
     .why-choose-one__image__bg{
       display: none;
     }
