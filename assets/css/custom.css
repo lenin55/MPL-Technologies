@@ -195,7 +195,12 @@
   .main-footer__top.without-letstalk {
     padding-top: 100px;
   }
-
+  .contactImg-right{
+    position: relative;
+  }
+  .contactImg-right svg{
+    transform: scale(1.3) translateX(50px);
+  }
   @media (max-width: 767px) {
     .for-header.main-slider-one__item{
         height: 80px;
