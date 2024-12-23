@@ -203,6 +203,13 @@
     transform: scale(1.3) translateX(50px);
   }
 
+  .about-three__list:has(.why-subText) li{
+    align-items: baseline;
+  }
+  .contact-subText {
+    color: #fff;
+  }
+
   /* chat custom css  */
   #BotPenguin-messenger #ele-304{
     opacity: 0;
