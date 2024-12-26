@@ -12446,7 +12446,7 @@ body.megamenu-popup-active .mobile-nav__content {
   width: 100%;
 }
 .google-map__info {
-  max-width: 29.33%;
+  width: 29.33%;
   background-color: var(--growim-primary, #635AD9);
   margin: 0 2%;
   padding: 25px 30px 18px;
