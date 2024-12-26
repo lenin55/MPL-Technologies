@@ -231,6 +231,7 @@
   }
 
   #mpl-logo-m ul li {
+    list-style: none;
     width: 18px;
     height: 18px; 
     border-radius: 100%;
