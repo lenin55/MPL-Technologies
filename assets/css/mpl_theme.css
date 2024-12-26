@@ -4669,7 +4669,7 @@ h6 {
 
 }
 .main-header__logo img {
-  max-width: 50px;
+  max-width: 40px;
 }
 .main-header__logo img:nth-child(2) {
   position: absolute;
